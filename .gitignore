@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+modules/__pycache__/
+tests/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Tests
+tests/
+test_*.py
+*_test.py
+
+# Application results & logs
+results/
+logs/
+*.log
+*.csv
+settings.json
+history/
+history.json
+history_line2.json
+
+# Agents & Rule links
+.agents/
+
+# Documentation & Office files
+manual/
+docs/
+*.pptx
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
